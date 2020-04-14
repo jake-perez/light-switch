@@ -1,0 +1,32 @@
+.light-switch-off {
+  position: relative;
+  text-align: center;
+  background-color: rgb(156, 154, 154);
+  margin-left: 90%;
+  max-width: 15px;
+  border-radius: 20px;
+  height: 40px;
+  border: 2px solid rgb(247, 244, 244);
+  top: 15vh;
+}
+
+.light-switch-on {
+  position: relative;
+  text-align: center;
+  background-color: rgba(9, 175, 73, 0.719);
+  margin-left: 90%;
+  max-width: 15px;
+  border-radius: 20px;
+  height: 40px;
+  border: 1px solid rgb(247, 244, 244);
+  top: 15vh;
+}
+
+.switch-on {
+  transition: 500ms;
+}
+
+.switch-off {
+  transition: 500ms;
+  transform: translateY(25px);
+}
