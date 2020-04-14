@@ -13,3 +13,45 @@
   margin-left: 5vh;
   margin-right: 5vh;
 }
+
+#main-sign-on {
+  animation: flicker 2s infinite step-end;
+  fill: rgb(8, 128, 38);
+}
+
+#outer-sign-on {
+  animation: flicker 3s infinite step-end;
+  stroke: #300cd1;
+}
+
+#light-bulb-on {
+  animation: flicker 1.7s infinite step-end;
+  fill: #ffff66;
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 1;
+  }
+  3% {
+    opacity: 0.4;
+  }
+  6% {
+    opacity: 1;
+  }
+  7% {
+    opacity: 0.4;
+  }
+  8% {
+    opacity: 1;
+  }
+  9% {
+    opacity: 0.4;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
