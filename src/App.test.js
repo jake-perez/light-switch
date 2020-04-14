@@ -16,7 +16,7 @@ describe('App', () => {
     container = null;
   });
 
-  it("renders with or without a name", () => {
+  it("renders without props", () => {
     act(() => {
       render(<App />, container)
     })
