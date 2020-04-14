@@ -24,9 +24,17 @@
 
 .switch-on {
   transition: 500ms;
+
+  :hover {
+    cursor: pointer;
+  }
 }
 
 .switch-off {
   transition: 500ms;
   transform: translateY(25px);
+
+  :hover {
+    cursor: pointer;
+  }
 }

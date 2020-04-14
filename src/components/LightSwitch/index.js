@@ -22,7 +22,7 @@ LightSwitch.propTypes = {
 
 // Switch SVG for light
 const SwitchSVG = ({ isOn }) => (
-  <svg className={isOn ? 'switch-on' : 'switch-off'} height="100" width="100">
+  <svg className={isOn ? 'switch-on' : 'switch-off'} height="auto" width="auto">
     <circle cx="7.4" cy="8" r="7" stroke="black" strokeWidth="1" fill="grey" />
   </svg>
 );
